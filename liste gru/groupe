@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des étudiants</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #123b70;
+        }
+
+        .conteneur {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background: #123b70;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #eef4fa;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteneur">
+        <h1>Liste des 20 étudiants</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Nom complet</th>
+                    <th>Matricule</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td>1</td><td>Nkulu Monga Emmanuel</td><td>2024022174</td></tr>
+                <tr><td>2</td><td>…anga Matondo Ginette</td><td>2024022286</td></tr>
+                <tr><td>3</td><td>…mambay Dimercia</td><td>2024022246</td></tr>
+                <tr><td>4</td><td>…gta Mwamb Tegaa</td><td>2024022197</td></tr>
+                <tr><td>5</td><td>…ulowayi Mbombo Francis</td><td>2024022120</td></tr>
+                <tr><td>6</td><td>…kyapi Mukala Jeanny</td><td>2024022224</td></tr>
+                <tr><td>7</td><td>…ket Kabwit Reince</td><td>2024022114</td></tr>
+                <tr><td>8</td><td>Bonve Binti Mwehu Divine</td><td>2024022122</td></tr>
+                <tr><td>9</td><td>Mbuyi Ilunga Vive</td><td>2024022410</td></tr>
+                <tr><td>10</td><td>Kasongo Luba Françoise</td><td>2024022472</td></tr>
+                <tr><td>11</td><td>Moseka Kilufya Yvonne</td><td>2024022409</td></tr>
+                <tr><td>12</td><td>Ngoy Bunda Syntiche</td><td>2024022046</td></tr>
+                <tr><td>13</td><td>Zombe Salima Merveille</td><td>2024022418</td></tr>
+                <tr><td>14</td><td>Akangakoy Okito Jemima</td><td>2024022167</td></tr>
+                <tr><td>15</td><td>Kitenge Lama Jomale</td><td>2024022278</td></tr>
+                <tr><td>16</td><td>Ngoy Mulamba Plamedie</td><td>2024022366</td></tr>
+                <tr><td>17</td><td>Ndaya Kadimba Cledia</td><td>2024022011</td></tr>
+                <tr><td>18</td><td>Masengo Lobanda Consolate</td><td>2023024140</td></tr>
+                <tr><td>19</td><td>Kapend Yav Kestia</td><td>2024022415</td></tr>
+                <tr><td>20</td><td>Kipampe Mutonwa Dimercia</td><td>2024022005</td></tr>
+            </tbody>
+        </table>
+
+        <footer>Page hébergée sur Amazon EC2</footer>
+    </div>
+</body>
+</html>
